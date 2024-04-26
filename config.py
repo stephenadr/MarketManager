@@ -9,3 +9,5 @@ BASE_URL = "http://kdtx-test.itheima.net"
 # 获取项目根路径
 BASE_PATH = os.path.dirname(__file__)
 print(BASE_PATH)
+# F:\pytest1\MarketManager\tests\data\test.pdf
+# F:\pytest1\MarketManager\tests\data\test.pdf

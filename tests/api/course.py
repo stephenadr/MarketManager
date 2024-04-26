@@ -16,7 +16,7 @@ class CourseAPI:
     # 初始化
     def __init__(self):
         # self.url_add_course = "http://kdtx-test.itheima.net/api/clues/course"
-        self.url_add_course = config.BASE_URL + "/api/clues/course"
+        self.url_add_course ="http://kdtx-test.itheima.net/api/clues/course"
         # self.url_select_course = "http://kdtx-test.itheima.net/api/clues/course/list"
         self.url_select_course = config.BASE_URL + "/api/clues/course/list"
 
@@ -36,4 +36,4 @@ class CourseAPI:
     def delete_course(self, course_id, token):
         return requests.delete(url=self.url_add_course + f"/{course_id}", headers={"Authorization": token})
 
-
+#未登录

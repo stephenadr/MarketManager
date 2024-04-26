@@ -25,6 +25,7 @@ class LoginAPI:
         # 指定url基本信息
         # self.url_verify = "http://kdtx-test.itheima.net/api/captchaImage"
         self.url_verify = config.BASE_URL + "/api/captchaImage"
+        print(self.url_verify)
         # self.url_login = "http://kdtx-test.itheima.net/api/login"
         self.url_login = config.BASE_URL + "/api/login"
 

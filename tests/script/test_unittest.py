@@ -1,5 +1,5 @@
 import unittest
-from api.login import LoginAPI
+from tests.api.login import LoginAPI
 
 class TestMyClass(unittest.TestCase):
     def test_method(self):

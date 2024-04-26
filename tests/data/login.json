@@ -3,8 +3,8 @@
     "username": "manager",
     "password": "123456",
     "status": 200,
-    "message": "成功",
-    "code": 200
+    "message": "不存在",
+    "code": 500
   },
   {
     "username": "",
